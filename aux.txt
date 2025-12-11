@@ -1,0 +1,7 @@
+DEVICE: AUX (Auxiliary)
+DOS: Reserved for auxiliary serial port (COM1)
+Windows: Redirects to console when accessed as file
+Behavior: echo test > aux.txt outputs to screen, not file
+Status: Quantum file - visible in dir, not accessible
+Test: type aux.txt → "File not found"
+Git: Cannot index on Windows, valid on Linux
