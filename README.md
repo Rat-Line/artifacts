@@ -8,8 +8,8 @@ This repository contains the canonical set of DOS reserved device names:
 | `nul.txt` | NUL | Null Device (Bit Bucket) | ❌ Redirects to null |
 | `aux.txt` | AUX | Auxiliary Port | ❌ Redirects to console |
 | `prn.txt` | PRN | Printer (LPT1 alias) | ❌ Redirects to printer |
-| `lpt1.txt` - `lpt9.txt` | LPT1-9 | Parallel Ports 1-9 | ❌ Redirects to ports |
-| `com1.txt` - `com9.txt` | COM1-9 | Serial Ports 1-9 | ❌ Redirects to ports |
+| `lpt1.txt` | LPT1-9 | Parallel Ports 1-9 | ❌ Redirects to ports |
+| `com1.txt` | COM1-9 | Serial Ports 1-9 | ❌ Redirects to ports |
 
 ## 🧪 The Experiment
 1. **Clone on Linux**: All files are normal `.txt` files.
